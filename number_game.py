@@ -10,5 +10,4 @@ while guess != number:
    print("cong")
    break
   else:
-   4
    print("try again")
