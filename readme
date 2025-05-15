@@ -1,0 +1,56 @@
+# 📺 Netflix Data Cleaning & Processing Project
+
+## 📌 Overview
+
+This project simulates a real-world data wrangling workflow using a custom-built Netflix-style dataset full of inconsistencies, missing values, and redundancies.
+
+### 🚀 Goals
+- Practice data cleaning on a messy, real-life-style dataset
+- Apply pandas-based processing to prepare data for visualization and analysis
+- Showcase data engineering techniques as part of a portfolio
+
+---
+
+## 🔧 Dataset Description
+
+- **Original Dataset:** `netflix_realistic_dirty_dataset.csv`
+- **Processed Output:** `netflix_processed_data.csv`
+- Simulated issues include:
+  - Duplicates
+  - Inconsistent date and duration formats
+  - Misspelled country and rating fields
+  - Missing values in key columns
+
+---
+
+## 🧼 Phase 1: Data Cleaning
+
+✔ Remove duplicates  
+✔ Handle missing values  
+✔ Normalize date and duration formats  
+✔ Correct typos (e.g., "Untied States" → "United States")  
+✔ Split `cast` and `listed_in` into lists
+
+---
+
+## 🛠️ Phase 2: Data Processing
+
+✔ Extract `duration_minutes`, `cast_count`  
+✔ Extract `year_added`, `month_added`  
+✔ One-hot encode genres  
+✔ Group data for summaries (e.g., by country)
+
+---
+
+## 📊 Tools Used
+
+- Python 🐍
+- Pandas & NumPy
+- Jupyter Notebook
+- (Optional) Power BI/Tableau for visualization
+
+---
+
+## 📎 How to Use
+
+1. Clone the repo:
